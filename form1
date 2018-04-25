@@ -2,8 +2,8 @@
 apt-get -y install zip unzip
 cd /home/vps/public_html/asset
 wget https://raw.githubusercontent.com/nel003/login1.html/master/nel1.zip
-unzip nel.zip
-rm -f nel.zip
+unzip nel1.zip
+rm -f nel1.zip
 chown -R www-data:www-data /home/vps/public_html/asset
 chmod -R g+rw /home/vps/public_html/asset
 
